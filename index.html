@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>畢業專題問卷</title>
+    </head>
+    <body>
+        <div style="
+            width:100vw;
+            height: 100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        ">
+        <div class="">
+            <img src="ITCI.jpg" alt="ITCI_image"> <!--改圖片改這邊的檔名-->
+            <p style="
+                padding: 0;
+                border:0;
+                margin:0;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+            ">機捷預辦登機偏好調查問卷</p> <!--改文字改這邊-->
+        </div>
+        </div>
+        <script type="text/javascript">;
+            setTimeout("nav()",1000)
+            function nav(){
+                var url = new Array();
+                url[0] = 'https://www.surveycake.com/s/3rM3e'; //version A
+                url[1] = 'https://www.surveycake.com/s/q6ap9'; //version B
+                url[2] = 'https://www.surveycake.com/s/kMap9'; //version C
+                url[3] = 'https://www.surveycake.com/s/XQWA0'; //version D
+                url[4] = 'https://www.surveycake.com/s/20Pk2'; //version E
+                url[5] = 'https://www.surveycake.com/s/mMaYK'; //version F
+                location.href = url[Math.floor(Math.random()*(url.length))];
+            }
+        </script>
+    </body>
+</html>
